@@ -1,0 +1,376 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container1 {
+    padding: 40px 0;
+    text-align: center;
+    font-size: small;
+    background: linear-gradient(
+    to top,
+    rgb(223, 199, 178) 0%, 
+    rgb(223, 199, 178) 52%,
+    white 52%,
+    white 90%
+  );
+}
+
+.nav {
+    background-color: rgba(173, 134, 112);
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    z-index: 10;
+}
+
+.nav-content{
+    font-family: monospace;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.nav-btn {
+    margin-right: 50px;
+}
+
+.nav-logo {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    
+}
+
+.nav img {
+    width: 80px;
+    height: 80px;
+}
+
+.nav-item {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding: 32px 10px;
+}
+
+.nav-item:hover {
+    background: rgba(255, 255, 255, 0.1);
+    color: #000000;
+}
+.mySlide1{
+    width: 1384px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /* width: 100vw; */
+  height: 500px;
+    
+}
+/* .mainAttraction{
+    font-size: 27px;
+    text-align:left ;
+    font-family: monospace; cái nào cmt như này thì đừng xóa
+} */
+.idea{
+    font-size: 29px;
+    text-align:left ;
+    font-family: monospace;
+}
+.lolo1 {
+    text-align: center;
+    font-size: 32px;
+    font-family: 'Times New Roman', Times, serif
+}
+.lolo {
+    margin-top: 20px;
+    text-align: center;
+    font-family: monospace;
+    font-size: 32px;
+}
+.lolo2{
+    text-align: left;
+    font-size: 40px;
+    margin-left: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 12px;
+}
+.lolo3 {
+    margin-left: 20px;
+    margin-top: 0;
+    font-size: 42px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 0px;
+}
+.lolo4 {
+    text-align: left;
+    font-size: 40px;
+    margin-left: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 12px;
+}
+.justp{
+    margin-left: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+.justp2{
+    margin-left: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    text-align: left;
+}
+.FOM:hover{
+    color: rgb(173, 134, 112);
+    transform: scale(1.01);
+    cursor: pointer;
+    color: white;
+}
+.FOM{
+    width: 212px;
+    font-size: 20px;
+    height: 45px ;
+    
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.slider {
+    width: 100%;
+}
+.slider img {
+    width: 100%;
+
+}
+
+.item {
+    text-align: center;
+    /* padding-top: 80px; */
+    font-family: cursive;
+    background: white;
+    margin: 0;
+}
+
+.moon-activity {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    text-align: center;
+}
+.moon-activity_inner {
+    padding-top: 80px;
+    background-color: antiquewhite;
+}
+
+
+.member {
+    height: 100vh;
+    background: red;
+}
+.member-imgs {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    
+}
+
+.member-imgs img {
+    width: 200px;
+    border-radius: 15px;
+}
+
+.songs-note {
+    text-align: center;
+    font-style: italic;
+    color: grey;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    padding: 8px;
+    border: none;
+    border-bottom: 1px solid grey;
+}
+
+button {
+    background-color: rgb(209, 157, 114);
+    color: white;
+    width: 100px;
+    border: none;
+    padding: 15px 20px;
+    margin: 0 auto;
+    border-radius: 15px;
+    transform: scale(1);
+
+}
+
+button:hover {
+    background: rgb(237, 198, 166);
+    transform: scale(1.01);
+    cursor: pointer;
+}
+
+
+.map img {
+    height: 500px;
+}
+
+span {
+    font-style: italic;
+    text-decoration: underline;
+    font-size: 24px;
+    color: blue;
+    cursor: pointer;
+}
+
+.shopping {
+    /* text-align: center; */
+    /* padding-top: 100px; */
+    margin-top: 20px;
+}
+
+.item-cake {
+    transition: all 0.5s    ;
+    width: 200px;
+    margin: 0 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    padding-bottom: 10px;
+    background-color: bisque;
+    height: 240px;
+    text-transform: capitalize;
+    font-style: italic;
+    margin-left: 32px;
+    
+}
+.item-cake img {
+    border-radius: 10px;
+    width: 160px;
+    height: 160px;
+}
+
+.item-cake:hover{
+    cursor: pointer;
+    transform: scale(1.01);
+}
+.moon-cake {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+}
+.shopping {
+    width: 100px;
+    /* height: 100%; */
+    background-image: url("background.jpg");
+    background-size: contain;
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+}
+.shopping-cake {
+    width: 900px;
+    background-color: rgba(255, 255, 255, 0.6);
+    /* margin-bottom: 50px; */
+    color: black;
+    
+}
+#haha {
+    color: #000000;
+    cursor: pointer;
+}
+#haha1 {
+    color: #000;
+    cursor: pointer;
+}
+#haha:hover{
+    text-decoration: underline;
+}
+
+.shopping1 {
+    /* text-align: center; */
+    /* padding-top: 100px; */
+    margin-top: 20px;
+}
+
+.item-cake1 {
+    transition: all 0.5s    ;
+    width: 200px;
+    margin: 0 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    padding-bottom: 10px;
+    background-color: bisque;
+    height: 230px;
+    text-transform: capitalize;
+    font-style: italic;
+    margin-left: 25px;
+    text-align: center;
+      
+}
+.item-cake1 img {
+    border-radius: 10px;
+    width: 169px;
+    height: 160px;
+}
+
+.item-cake1:hover{
+    cursor: pointer;
+    transform: scale(1.01);
+}
+.moon-cake1 {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+}
+.shopping1 {
+    width: 100px;
+    /* height: 100%; */
+    background-image: url("background.jpg");
+    background-size: contain;
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+}
+.shopping-cake1 {
+    width: 900px;
+    background-color: rgba(255, 255, 255, 0.6);
+    margin-bottom: 50px;
+    color: black;
+    
+}
+.about-side{
+    justify-content: right;
+}
+.box-item{
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}

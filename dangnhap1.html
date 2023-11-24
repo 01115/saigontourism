@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Login</title>
+        <link rel="stylesheet" href="css.css">
+    </head>
+    <body>
+        <h2>Đây là trang đăng nhập</h2>
+        <button2 class="signin-btn" id="turnback-btn">Turn back</button2>
+        <div class="container">
+            <div id="signin" class="box">
+                <h1>Đăng nhập</h1>
+                <form action="">
+                    <div class="'text-box">
+                        <h4>Họ và tên</h4>
+                        <input type="text" placeholder="Họ và tên của bạn">
+                    </div>
+                    <div class="'text-box">
+                        <h4>Email:</h4>
+                        <input type="text" placeholder="Email của bạn">
+                    </div>
+                    <div class="text-box">
+                        <h4>Mật Khẩu</h4>
+                        <input type="password" placeholder="Mật khẩu của bạn">
+                    </div>
+
+                    <div class="text-box">
+                        <a href="end.html"><button type="button">Đăng nhập</button></a>
+                       
+                        <a id="signin-alert">Bạn chưa có tài khoản?</a>
+                    </div>
+                </form>
+            </div>
+            
+            <div id="signup" class="box hidden">
+                <h1>Đăng ký</h1>
+                <form action="">
+                    <div class="'text-box">
+                        <h4>Họ và tên</h4>
+                        <input type="text" placeholder="Họ và tên của bạn">
+                    </div>
+                        <div class="text-box">
+                        <h4>Email:</h4>
+                        <input type="text" placeholder="Email của bạn">
+                    </div>
+
+                    <div class="text-box">
+                        <h4>Mật Khẩu</h4>
+                        <input type="password" placeholder="Mật khẩu của bạn">
+                    </div>
+                    <div class="text-box">
+                        <h4>Nhập lại mật khẩu</h4>
+                        <input type="password" placeholder="Nhập lại mật khẩu của bạn">
+                    </div>
+                    <div class="text-box">
+                        <button type="Submit">Đăng ký</button>
+                        <a id="signup-alert">Bạn đã có tài khoản</a>
+                    </div>
+                    
+                </form>
+            </div>
+        </div>
+
+    </body>
+    <script>
+    document.getElementById("turnback-btn").addEventListener("click", function () {
+        window.location.href = "index.html"
+    })
+    </script>
+    <script src="mmain.js"></script>
+    <script src="baitap2.js"></script>
+</html>
